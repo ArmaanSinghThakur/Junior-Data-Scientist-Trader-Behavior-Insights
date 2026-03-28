@@ -1,0 +1,30 @@
+--- Win Rate by Sentiment ---
+classification
+Extreme Fear     0.762156
+Extreme Greed    0.891670
+Fear             0.872886
+Greed            0.768907
+Neutral          0.823889
+Name: Is_Profitable, dtype: float64
+
+--- Average PnL by Sentiment ---
+classification
+Extreme Fear      71.027316
+Extreme Greed    130.205309
+Fear             112.625988
+Greed             85.403927
+Neutral           71.199993
+Name: Closed PnL, dtype: float64
+
+--- Model Evaluation ---
+Accuracy: 0.965135769359705
+
+Feature Importances:
+ Execution Price    0.326294
+Start Position     0.216325
+value              0.210976
+Fee                0.114818
+Size USD           0.096415
+Direction          0.027410
+Side               0.007760
+dtype: float64
